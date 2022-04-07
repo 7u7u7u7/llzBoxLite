@@ -1,0 +1,22 @@
+{
+  "name": "llzBoxLite",
+  "version": "0.1.0",
+  "summary": "A short description of llzBoxLite.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/liaozhe/llzBoxLite",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "liaozhe": "1165302931@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/liaozhe/llzBoxLite.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "llzBoxLite/Classes/**/*"
+}

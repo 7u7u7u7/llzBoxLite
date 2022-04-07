@@ -1,0 +1,6 @@
+framework module llzBoxLite {
+  umbrella header "llzBoxLite-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,16 @@
+PODS:
+  - llzBoxLite (0.1.0)
+
+DEPENDENCIES:
+  - llzBoxLite (from `../`)
+
+EXTERNAL SOURCES:
+  llzBoxLite:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  llzBoxLite: 19032f7b9fdf18abd3c2dae94a37e7ba72c6897f
+
+PODFILE CHECKSUM: ee46245b5f3348f52470d597f4a580d70654d55e
+
+COCOAPODS: 1.10.1
