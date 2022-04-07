@@ -1,0 +1,6 @@
+use_frameworks!
+target 'llzBoxLite_Tests' do
+  pod 'llzBoxLite', :path => '../'
+  
+  
+end
