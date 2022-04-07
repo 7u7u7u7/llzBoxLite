@@ -13,13 +13,13 @@
 
 /* Begin PBXFileReference section */
 		59D3BB4D1CDCC86E43F2D4BE /* Pods_llzBoxLite_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_llzBoxLite_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5E1713DE827F8D3491DB11C4 /* llzBoxLite.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = llzBoxLite.podspec; path = ../llzBoxLite.podspec; sourceTree = "<group>"; };
+		5E1713DE827F8D3491DB11C4 /* llzBoxLite.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = llzBoxLite.podspec; path = ../llzBoxLite.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		607FACE51AFB9204008FA782 /* llzBoxLite_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = llzBoxLite_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		7876259BD23BB69007EB18B8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		7876259BD23BB69007EB18B8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		8BABBAC63657760DA9B0970A /* Pods-llzBoxLite_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-llzBoxLite_Tests.debug.xcconfig"; path = "Target Support Files/Pods-llzBoxLite_Tests/Pods-llzBoxLite_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		B34D0375FB63E5872FD846A4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		B34D0375FB63E5872FD846A4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		B54D1262FF53047D6BC7BA90 /* Pods-llzBoxLite_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-llzBoxLite_Tests.release.xcconfig"; path = "Target Support Files/Pods-llzBoxLite_Tests/Pods-llzBoxLite_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -41,7 +41,6 @@
 				8BABBAC63657760DA9B0970A /* Pods-llzBoxLite_Tests.debug.xcconfig */,
 				B54D1262FF53047D6BC7BA90 /* Pods-llzBoxLite_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -131,12 +130,9 @@
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
-					607FACCF1AFB9204008FA782 = {
-						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0900;
-					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = F86PHU4Q79;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -147,6 +143,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -328,6 +325,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8BABBAC63657760DA9B0970A /* Pods-llzBoxLite_Tests.debug.xcconfig */;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				DEVELOPMENT_TEAM = F86PHU4Q79;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -350,6 +349,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B54D1262FF53047D6BC7BA90 /* Pods-llzBoxLite_Tests.release.xcconfig */;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				DEVELOPMENT_TEAM = F86PHU4Q79;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
